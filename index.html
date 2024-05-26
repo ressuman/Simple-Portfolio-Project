@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="John Doe's Portfolio - Web Developer | UX/UI Designer"
+    />
+    <meta
+      name="keywords"
+      content="web developer, UX/UI designer, portfolio, projects, skills"
+    />
+    <meta name="author" content="Richard Essuman" />
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header-section">
+      <div class="header-content">
+        <h1 class="name">John Doe</h1>
+        <h2 class="tagline">Web Developer | UX/UI Designer</h2>
+        <div class="profile-picture">
+          <!-- Your logo or profile picture -->
+          <img src="./assets/images/photo3.avif" alt="Profile1" />
+        </div>
+        <nav class="nav-bar" id="navBar">
+          <button
+            class="menu-toggle"
+            onclick="toggleMenu()"
+            onkeypress="toggleMenu()"
+            tabindex="0"
+          >
+            &#9776;
+          </button>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="about-content">
+        <div class="about-image">
+          <!-- Your photo -->
+          <img src="./assets/images/premium_photo.avif" alt="Profile2" />
+        </div>
+        <div class="bio">
+          <h3>About Me</h3>
+          <p>
+            Hi, I'm John Doe, a passionate web developer and UX/UI designer with
+            5 years of experience in creating interactive and user-friendly
+            websites and applications. I specialize in front-end development
+            using HTML, CSS, and JavaScript, with a strong focus on responsive
+            design and accessibility.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <div class="skills-content">
+        <h3>Skills</h3>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Responsive Design</li>
+          <li>UI/UX Design</li>
+          <li>Version Control (Git)</li>
+          <li>Adobe Creative Suite</li>
+          <li>SEO Optimization</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+      <div class="projects-content">
+        <h3>Projects</h3>
+        <div class="project">
+          <h4>Portfolio Website</h4>
+          <p>
+            Description: Designed and developed a responsive portfolio website
+            showcasing skills and projects.
+          </p>
+          <p>Technologies: HTML, CSS, JavaScript</p>
+          <!-- Image of the website -->
+          <img
+            src="./assets/images/photo2.avif"
+            alt="Portfolio Website Screenshot"
+          />
+        </div>
+        <div class="project">
+          <h4>E-commerce Platform</h4>
+          <p>
+            Description: Built an e-commerce platform with product listings,
+            cart functionality, and payment integration.
+          </p>
+          <p>Technologies: React.js, Node.js, Express, MongoDB</p>
+          <!-- Image of the platform -->
+          <img
+            src="./assets/images/premium_photo-1.avif"
+            alt="E-commerce Platform Screenshot"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume-section">
+      <div class="resume-content">
+        <h3>Resume</h3>
+        <p><a href="resume.pdf" target="_blank">Download PDF Resume</a></p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-content">
+        <h3>Contact Me</h3>
+        <ul class="contact-list">
+          <li>
+            Email:
+            <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+          </li>
+          <li>Phone: <a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+          <li>
+            LinkedIn:
+            <a
+              rel="noopener"
+              href="https://www.linkedin.com/in/yourprofile"
+              target="_blank"
+              >Your LinkedIn Profile</a
+            >
+          </li>
+          <li>
+            GitHub:
+            <a
+              rel="noopener"
+              href="https://github.com/yourusername"
+              target="_blank"
+              >Your GitHub Profile</a
+            >
+          </li>
+          <li>Location: Accra, Ghana</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <!-- Your footer logo -->
+          <img src="./assets/images/foot.svg" alt="Footer Logo" />
+        </div>
+        <div class="footer-links">
+          <ul class="footer-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+          <p>Designed by Richard Essuman</p>
+        </div>
+        <!-- Add Back to Top button -->
+        <button
+          type="button"
+          onclick="scrollToTop()"
+          id="back-to-top-btn"
+          title="Go to top"
+        >
+          &#8679; Top
+        </button>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/* About Section */
+.about-section {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bio {
+  max-width: 600px;
+  margin-left: 50px;
+}
+
+.bio h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.bio p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #666;
+}
